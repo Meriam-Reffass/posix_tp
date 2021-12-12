@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1639237395 source:c:\temp\test\main.c
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+	"routine.h"
+	"structs.h"
+	"config.h"
+
+1639237592 c:\temp\test\routine.h
+
+1639237001 c:\temp\test\structs.h
+	"config.h"
+	<semaphore.h>
+
+1639237372 c:\temp\test\config.h
+
+1639237600 source:c:\temp\test\routine.c
+	"routine.h"
+	"structs.h"
+	"routine.h"
+	"config.h"
+	<stddef.h>
+
